@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD330C1F28A41FBE000D5934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD330C1E28A41FBE000D5934 /* Assets.xcassets */; };
+		DD7FC19E28A2CD0A00917651 /* LofiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC19D28A2CD0A00917651 /* LofiApp.swift */; };
+		DD7FC1A028A2CD0A00917651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC19F28A2CD0A00917651 /* ContentView.swift */; };
+		DD7FC1A528A2CD0C00917651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC1A428A2CD0C00917651 /* Preview Assets.xcassets */; };
+		DD7FC1AF28A2CD0C00917651 /* LofiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1AE28A2CD0C00917651 /* LofiTests.swift */; };
+		DD7FC1B928A2CD0C00917651 /* LofiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1B828A2CD0C00917651 /* LofiUITests.swift */; };
+		DD7FC1BB28A2CD0C00917651 /* LofiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1BA28A2CD0C00917651 /* LofiUITestsLaunchTests.swift */; };
+		DD7FC1CA28A2CD7800917651 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1C928A2CD7800917651 /* Extensions.swift */; };
+		DD7FC1CF28A2D07100917651 /* Downtown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC1CC28A2D07100917651 /* Downtown.mp3 */; };
+		DD7FC1D028A2D07100917651 /* Cozy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC1CD28A2D07100917651 /* Cozy.mp3 */; };
+		DD7FC1D128A2D07100917651 /* Wild.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC1CE28A2D07100917651 /* Wild.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD7FC1AB28A2CD0C00917651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7FC19228A2CD0A00917651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7FC19928A2CD0A00917651;
+			remoteInfo = Lofi;
+		};
+		DD7FC1B528A2CD0C00917651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7FC19228A2CD0A00917651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7FC19928A2CD0A00917651;
+			remoteInfo = Lofi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD330C1E28A41FBE000D5934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD7FC19A28A2CD0A00917651 /* Lofi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lofi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7FC19D28A2CD0A00917651 /* LofiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LofiApp.swift; sourceTree = "<group>"; };
+		DD7FC19F28A2CD0A00917651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD7FC1A428A2CD0C00917651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD7FC1AA28A2CD0C00917651 /* LofiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LofiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7FC1AE28A2CD0C00917651 /* LofiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LofiTests.swift; sourceTree = "<group>"; };
+		DD7FC1B428A2CD0C00917651 /* LofiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LofiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7FC1B828A2CD0C00917651 /* LofiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LofiUITests.swift; sourceTree = "<group>"; };
+		DD7FC1BA28A2CD0C00917651 /* LofiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LofiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD7FC1C928A2CD7800917651 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DD7FC1CC28A2D07100917651 /* Downtown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Downtown.mp3; path = ../../../../../Downloads/Downtown.mp3; sourceTree = "<group>"; };
+		DD7FC1CD28A2D07100917651 /* Cozy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Cozy.mp3; path = ../../../../../Downloads/Cozy.mp3; sourceTree = "<group>"; };
+		DD7FC1CE28A2D07100917651 /* Wild.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Wild.mp3; path = ../../../../../Downloads/Wild.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7FC19728A2CD0A00917651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FC1A728A2CD0C00917651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FC1B128A2CD0C00917651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7FC19128A2CD0A00917651 = {
+			isa = PBXGroup;
+			children = (
+				DD7FC19C28A2CD0A00917651 /* Lofi */,
+				DD7FC1AD28A2CD0C00917651 /* LofiTests */,
+				DD7FC1B728A2CD0C00917651 /* LofiUITests */,
+				DD7FC19B28A2CD0A00917651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7FC19B28A2CD0A00917651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FC19A28A2CD0A00917651 /* Lofi.app */,
+				DD7FC1AA28A2CD0C00917651 /* LofiTests.xctest */,
+				DD7FC1B428A2CD0C00917651 /* LofiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7FC19C28A2CD0A00917651 /* Lofi */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FC1CB28A2D05B00917651 /* Music */,
+				DD7FC19D28A2CD0A00917651 /* LofiApp.swift */,
+				DD7FC19F28A2CD0A00917651 /* ContentView.swift */,
+				DD330C1E28A41FBE000D5934 /* Assets.xcassets */,
+				DD7FC1A328A2CD0C00917651 /* Preview Content */,
+				DD7FC1C928A2CD7800917651 /* Extensions.swift */,
+			);
+			path = Lofi;
+			sourceTree = "<group>";
+		};
+		DD7FC1A328A2CD0C00917651 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FC1A428A2CD0C00917651 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD7FC1AD28A2CD0C00917651 /* LofiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FC1AE28A2CD0C00917651 /* LofiTests.swift */,
+			);
+			path = LofiTests;
+			sourceTree = "<group>";
+		};
+		DD7FC1B728A2CD0C00917651 /* LofiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FC1B828A2CD0C00917651 /* LofiUITests.swift */,
+				DD7FC1BA28A2CD0C00917651 /* LofiUITestsLaunchTests.swift */,
+			);
+			path = LofiUITests;
+			sourceTree = "<group>";
+		};
+		DD7FC1CB28A2D05B00917651 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FC1CD28A2D07100917651 /* Cozy.mp3 */,
+				DD7FC1CC28A2D07100917651 /* Downtown.mp3 */,
+				DD7FC1CE28A2D07100917651 /* Wild.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7FC19928A2CD0A00917651 /* Lofi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7FC1BE28A2CD0C00917651 /* Build configuration list for PBXNativeTarget "Lofi" */;
+			buildPhases = (
+				DD7FC19628A2CD0A00917651 /* Sources */,
+				DD7FC19728A2CD0A00917651 /* Frameworks */,
+				DD7FC19828A2CD0A00917651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lofi;
+			productName = Lofi;
+			productReference = DD7FC19A28A2CD0A00917651 /* Lofi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD7FC1A928A2CD0C00917651 /* LofiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7FC1C128A2CD0C00917651 /* Build configuration list for PBXNativeTarget "LofiTests" */;
+			buildPhases = (
+				DD7FC1A628A2CD0C00917651 /* Sources */,
+				DD7FC1A728A2CD0C00917651 /* Frameworks */,
+				DD7FC1A828A2CD0C00917651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7FC1AC28A2CD0C00917651 /* PBXTargetDependency */,
+			);
+			name = LofiTests;
+			productName = LofiTests;
+			productReference = DD7FC1AA28A2CD0C00917651 /* LofiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD7FC1B328A2CD0C00917651 /* LofiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7FC1C428A2CD0C00917651 /* Build configuration list for PBXNativeTarget "LofiUITests" */;
+			buildPhases = (
+				DD7FC1B028A2CD0C00917651 /* Sources */,
+				DD7FC1B128A2CD0C00917651 /* Frameworks */,
+				DD7FC1B228A2CD0C00917651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7FC1B628A2CD0C00917651 /* PBXTargetDependency */,
+			);
+			name = LofiUITests;
+			productName = LofiUITests;
+			productReference = DD7FC1B428A2CD0C00917651 /* LofiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7FC19228A2CD0A00917651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DD7FC19928A2CD0A00917651 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DD7FC1A928A2CD0C00917651 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DD7FC19928A2CD0A00917651;
+					};
+					DD7FC1B328A2CD0C00917651 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DD7FC19928A2CD0A00917651;
+					};
+				};
+			};
+			buildConfigurationList = DD7FC19528A2CD0A00917651 /* Build configuration list for PBXProject "Lofi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD7FC19128A2CD0A00917651;
+			productRefGroup = DD7FC19B28A2CD0A00917651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7FC19928A2CD0A00917651 /* Lofi */,
+				DD7FC1A928A2CD0C00917651 /* LofiTests */,
+				DD7FC1B328A2CD0C00917651 /* LofiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7FC19828A2CD0A00917651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FC1A528A2CD0C00917651 /* Preview Assets.xcassets in Resources */,
+				DD7FC1D128A2D07100917651 /* Wild.mp3 in Resources */,
+				DD7FC1CF28A2D07100917651 /* Downtown.mp3 in Resources */,
+				DD7FC1D028A2D07100917651 /* Cozy.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FC1A828A2CD0C00917651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FC1B228A2CD0C00917651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD330C1F28A41FBE000D5934 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7FC19628A2CD0A00917651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FC1A028A2CD0A00917651 /* ContentView.swift in Sources */,
+				DD7FC1CA28A2CD7800917651 /* Extensions.swift in Sources */,
+				DD7FC19E28A2CD0A00917651 /* LofiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FC1A628A2CD0C00917651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FC1AF28A2CD0C00917651 /* LofiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FC1B028A2CD0C00917651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FC1BB28A2CD0C00917651 /* LofiUITestsLaunchTests.swift in Sources */,
+				DD7FC1B928A2CD0C00917651 /* LofiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD7FC1AC28A2CD0C00917651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7FC19928A2CD0A00917651 /* Lofi */;
+			targetProxy = DD7FC1AB28A2CD0C00917651 /* PBXContainerItemProxy */;
+		};
+		DD7FC1B628A2CD0C00917651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7FC19928A2CD0A00917651 /* Lofi */;
+			targetProxy = DD7FC1B528A2CD0C00917651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD7FC1BC28A2CD0C00917651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD7FC1BD28A2CD0C00917651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD7FC1BF28A2CD0C00917651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lofi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathancheng.Lofi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD7FC1C028A2CD0C00917651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lofi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathancheng.Lofi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD7FC1C228A2CD0C00917651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathancheng.LofiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lofi.app/Lofi";
+			};
+			name = Debug;
+		};
+		DD7FC1C328A2CD0C00917651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathancheng.LofiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lofi.app/Lofi";
+			};
+			name = Release;
+		};
+		DD7FC1C528A2CD0C00917651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathancheng.LofiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lofi;
+			};
+			name = Debug;
+		};
+		DD7FC1C628A2CD0C00917651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathancheng.LofiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lofi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7FC19528A2CD0A00917651 /* Build configuration list for PBXProject "Lofi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7FC1BC28A2CD0C00917651 /* Debug */,
+				DD7FC1BD28A2CD0C00917651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7FC1BE28A2CD0C00917651 /* Build configuration list for PBXNativeTarget "Lofi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7FC1BF28A2CD0C00917651 /* Debug */,
+				DD7FC1C028A2CD0C00917651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7FC1C128A2CD0C00917651 /* Build configuration list for PBXNativeTarget "LofiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7FC1C228A2CD0C00917651 /* Debug */,
+				DD7FC1C328A2CD0C00917651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7FC1C428A2CD0C00917651 /* Build configuration list for PBXNativeTarget "LofiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7FC1C528A2CD0C00917651 /* Debug */,
+				DD7FC1C628A2CD0C00917651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7FC19228A2CD0A00917651 /* Project object */;
+}
